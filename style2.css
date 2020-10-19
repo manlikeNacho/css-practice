@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    color: #2222222cc; 
+ }
+ 
+ html, body{
+     margin: 0;
+     padding: 0;
+ 
+ }
+ .nav ul{
+ 
+     margin: 0;
+ }
+ .nav li{
+     display: inline;
+    
+     
+ }
+ .nav a{
+     display: inline-block;
+     padding:10px ;
+     color: white;
+     text-decoration: none;
+ 
+ }
+ .nav a:hover{
+     background-color: rgba(250, 248, 248, 0.2);
+ }
+ .main-nav{
+     text-align: center;
+     font-size: 1.1em;
+     font-weight: lighter;
+     border-bottom: 1px solid gray;
+ }
+ .main-nav li { 
+     padding: 0 5%;
+ }
+ 
+ 
+  .main-header {
+     background-color: rgba(0, 0, 0,.2);
+     background-image: url(one.jpg);
+     background-blend-mode: multiply;
+     background-size: cover;
+     padding-bottom: 30px;
+ }
+ .band-name{
+    display: flex;
+    justify-content: center;
+     padding: 0 50px 0 50px;
+     margin: 0%;
+     font-family: 'Great Vibes', cursive;
+     font-size: 4em;
+     color: seashell;
+     
+ }
+ .content-section{
+    text-align: left;
+     margin: 0.9em;
+ 
+ }
+ .container{
+     
+     max-width: 800px;
+     margin: 0 auto;
+     padding:0 1.5rem ;
+ }
+ .section-header{
+    
+ font-family: 'Sansita Swashed';
+     font-weight: bold;
+     text-align: center;
+     padding: 0 50px 0 50px;
+ 
+ }
+    
+    
+.section-header{
+   
+    font-family: 'Sansita Swashed';
+        font-weight: bold;
+        text-align: center;
+        padding: 0 50px 0 50px;}
+
+.main-store{
+    display: flex;
+    flex-wrap:wrap;
+     justify-content: space-around;
+
+   
+}
+.cart-item-title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: sandybrown;
+    margin: 15px;
+
+}
+.cart-item-details{
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+   
+}
+.cart-item-price{
+    flex-grow: 1;
+    color: #333;
+}
+.cart-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+
+}
+.cart-column{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-item ,.cart-content{
+    width: 45%;
+}
+.cart-price{
+
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+.cart-quantity{
+    width: 35% ;
+}
+.cart-item-title{
+    color: #333;
+    margin-left:0.5em ;
+    font-size: 1.2em;
+}
+.cart-item-image{
+    border-radius: 10px;
+}
+.cart-quantity-input{
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(54, 54, 160);
+    background-color:wheat ;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+.cart-roww:last-child{
+    border-bottom: 1px solid black;
+}
+.cart-roww:last-child .cart-column{
+    border: none;
+}
+.cart-final-purchase .btn{
+    border: 1px solid black;
+    border-radius: 1.5px;
+    background-color: skyblue;
+}
+.cart-total{
+    text-align: end;
+    margin-right: 20%;
+}
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: strong black;
+    margin-right: 20px;
+}
+ .final-button .btn{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.main-footer{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    color: snow;
+    padding: .25em 0;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.main-footer-nav li {
+    padding:0 .5em ;
+    S
+}
+.main-footer-nav img{
+    width: 50px;
+    height: 50px;
+}
